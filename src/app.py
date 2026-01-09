@@ -22,6 +22,48 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 # In-memory activity database
 activities = {
     "Chess Club": {
+        "1": {
+            "description": "Learn strategies and compete in chess tournaments",
+            "schedule": "Fridays, 3:30 PM - 5:00 PM",
+            "max_participants": 12,
+            "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        },
+        "Basketball": {
+            "description": "Team sport and competitive basketball games",
+            "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+            "max_participants": 15,
+            "participants": []
+        },
+        "Tennis": {
+            "description": "Individual and doubles tennis matches",
+            "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:00 PM",
+            "max_participants": 8,
+            "participants": []
+        },
+        "Drama Club": {
+            "description": "Learn acting, perform in theatrical productions",
+            "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+            "max_participants": 25,
+            "participants": []
+        },
+        "Art Studio": {
+            "description": "Painting, drawing, and sculpture techniques",
+            "schedule": "Mondays and Thursdays, 3:30 PM - 4:45 PM",
+            "max_participants": 18,
+            "participants": []
+        },
+        "Robotics Club": {
+            "description": "Build and program robots for competitions",
+            "schedule": "Tuesdays and Fridays, 4:00 PM - 5:30 PM",
+            "max_participants": 16,
+            "participants": []
+        },
+        "Science Fair Committee": {
+            "description": "Conduct experiments and present scientific research",
+            "schedule": "Wednesdays, 4:00 PM - 5:00 PM",
+            "max_participants": 20,
+            "participants": []
+        },
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
